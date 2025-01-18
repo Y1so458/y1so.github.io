@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #333;
+        }
+        .banner {
+            width: 100%;
+            max-width: 600px;
+            height: 150px;
+            margin: 20px 0;
+            object-fit: cover;
+            border: 2px solid #333;
+        }
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .buttons a {
+            text-decoration: none;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        .buttons a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://media.discordapp.net/attachments/1304431102034841671/1304799418075058216/image.png?ex=678cfda7&is=678bac27&hm=d3ada28779d5f68fa04d76d155db5c1bd47d1e5c88d3dc4acc508b7794859ee5&=&format=webp&quality=lossless&width=675&height=671" alt="Profile Picture" class="profile-pic">
+        <img src="https://media.discordapp.net/attachments/1304431102034841671/1330213776208826390/a5b1b420e820d7dca78d208a7f7d7005_1.jpg?ex=678d299e&is=678bd81e&hm=41e814f779ad6bcf6a366fe639f01c9d12e6526100cc0e7ccdc96e887395e006&=&format=webp" alt="Banner" class="banner">
+    </header>
+    <div class="buttons">
+        <a href="https://youtube.com/playlist?list=PL3trT8jB2Z3nAlZA2SLXGSehTmTbSzJie&si=CW0RbRwuHVAvspdJ" target="_blank">Button 1</a>
+        <a href="https://pushoong.com/ask/3626208976" target="_blank">Button 2</a>
+        <a href="https://cdn.discordapp.com/attachments/1304431102034841671/1330213016955781284/image.png?ex=678d28e9&is=678bd769&hm=fa565e944f3310133c3dc1e6ed806d32a4568d22debb105208b2b2e5bb12e071&" target="_blank">Button 3</a>
+    </div>
+</body>
+</html>
